@@ -9,64 +9,164 @@
 
     <EditText
         android:id="@+id/editText1"
-        android:layout_width="wrap_content"
+        android:layout_width="175dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
         android:ems="10"
-        android:hint="Degree Celsius"
-        android:inputType="textPersonName" />
+        android:hint=" "
+        android:inputType="number|numberSigned|numberDecimal" />
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="wrap_content"
+        android:layout_width="175dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="104dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
         android:ems="10"
-        android:hint="Degree Fahrenheit"
-        android:inputType="textPersonName" />
+        android:inputType="number|numberSigned|numberDecimal" />
 
     <EditText
         android:id="@+id/editText3"
-        android:layout_width="wrap_content"
+        android:layout_width="175dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="170dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="195dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
         android:ems="10"
-        android:hint="Kelvin"
-        android:inputType="textPersonName" />
+        android:inputType="number|numberSigned|numberDecimal" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:ems="10"
+        android:inputType="number|numberSigned|numberDecimal" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:ems="10"
+        android:inputType="number|numberSigned|numberDecimal" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView4"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="57dp"
-        android:text="Convert Me" />
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="81dp"
+        android:text="Convert Me"
+        android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/editText4"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginBottom="524dp"
+        android:text="Degree Celsius"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/editText1"
-        android:layout_centerVertical="true"
-        android:ems="10"
-        android:hint="Degrees Reaumur"
-        android:inputType="textPersonName" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="126dp"
+        android:text="Degree Fahrenheit"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/editText5"
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="206dp"
+        android:text="Kelvin"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="280dp"
+        android:text="Degrees Reaumur"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="166dp"
-        android:ems="10"
-        android:hint="Planck Temprature"
-        android:inputType="textPersonName" />
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="-12dp"
+        android:layout_marginRight="-12dp"
+        android:layout_marginBottom="219dp"
+        android:text="Planck Temprature"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="77dp"
+        android:layout_marginRight="77dp"
+        android:text="Reset"
+        android:textStyle="bold" />
 </RelativeLayout>
